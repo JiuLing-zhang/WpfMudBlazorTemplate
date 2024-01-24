@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup"
+            xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>WPF MudBlazor 混合开发</Name>
+		<Description>一个用来创建 WPF + MudBlazor 的项目模板</Description>
+		<ProjectType>CSharp</ProjectType>
+		<PlatformTag>C#</PlatformTag>
+		<PlatformTag>WPF</PlatformTag>
+		<PlatformTag>MudBlazor</PlatformTag>
+		<PlatformTag>桌面</PlatformTag>
+		<PlatformTag>混合开发</PlatformTag>
+		<DefaultName>WpfMudBlazor</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectCollection>
+			<ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+				WpfMudBlazor\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$safeprojectname$.Pages" CopyParameters="true">
+				WpfMudBlazor.Pages\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+		</ProjectCollection>
+	</TemplateContent>
+</VSTemplate>

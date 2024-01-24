@@ -1,0 +1,49 @@
+@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<MudText Class="mb-8">
+    这是一个快速生成 WPF + Blazor + MudBlazor 的项目模板
+</MudText>
+
+<MudChip Icon="@Icons.Material.Filled.QuestionMark"
+         Label="true"
+         Size="Size.Small"
+         Color="Color.Primary">
+    为什么会有这个模板
+</MudChip>
+
+<MudAlert Severity="Severity.Normal" NoIcon="true" Dense="true" Class="mb-2 mt-1">
+    从零搭建一个项目比较繁琐
+    <MudChip Label="true" Size="Size.Small" Color="Color.Info">
+        <MudLink Href="https://learn.microsoft.com/zh-cn/aspnet/core/blazor/hybrid/tutorials/wpf?view=aspnetcore-8.0" Typo="Typo.body2" Color="Color.Inherit">
+            <b>WPF Blazor 官方搭建教程</b>
+        </MudLink>
+    </MudChip>
+    <MudChip Label="true" Size="Size.Small" Color="Color.Info">
+        <MudLink Href="https://mudblazor.com/getting-started/installation" Typo="Typo.body2" Color="Color.Inherit">
+            <b>MudBlazor 官方安装示例</b>
+        </MudLink>
+    </MudChip>
+</MudAlert>
+<MudAlert Severity="Severity.Normal" NoIcon="true" Dense="true" Class="mb-2 mt-1">
+    最近经常需要用这玩意开发点小东西
+</MudAlert>
+
+<MudChip Icon="@Icons.Material.Filled.QuestionMark"
+         Label="true"
+         Size="Size.Small"
+         Color="Color.Primary"
+         Class="mt-4">
+    为什么要把系统功能放入 .Pages 项目
+</MudChip>
+<MudAlert Severity="Severity.Normal" NoIcon="true" Dense="true" Class="mb-2 mt-1">
+    可以更方便的将系统迁移到 MAUI、Windows Forms、Web
+</MudAlert>
+
+<MudAlert Severity="Severity.Normal" Class="mt-10">
+    MudBlazor 示例开发文档:
+    <MudLink Href="https://mudblazor.com" Typo="Typo.body2" Color="Color.Inherit">
+        <b>www.mudblazor.com</b>
+    </MudLink>
+</MudAlert>
