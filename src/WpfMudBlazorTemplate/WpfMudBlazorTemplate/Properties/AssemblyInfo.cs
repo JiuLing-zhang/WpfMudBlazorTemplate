@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WpfMudBlazorTemplate")]
-[assembly: AssemblyDescription("一个用来创建 WPF + MudBlazor 的项目模板")]
+[assembly: AssemblyDescription("一个用来创建 .NET 8 + WPF + MudBlazor 的项目模板")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("九零")]
 [assembly: AssemblyProduct("WpfMudBlazorTemplate")]

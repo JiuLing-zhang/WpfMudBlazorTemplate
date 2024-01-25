@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="WpfMudBlazorTemplate.566f702b-eda2-43c8-a049-ef12e9bb8861" Version="1.1" Language="zh-Hans" Publisher="九零" />
         <DisplayName>WpfMudBlazorTemplate</DisplayName>
-        <Description xml:space="preserve">一个用来创建 WPF + MudBlazor 的项目模板</Description>
+        <Description xml:space="preserve">一个用来创建 .NET 8 + WPF + MudBlazor 的项目模板</Description>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
