@@ -3,9 +3,9 @@
 * 一个用来创建 .NET 8 + WPF + MudBlazor 的项目模板
 * 适用于 VS2022
 
-![template](https://s2.loli.net/2024/01/25/EayZPv7AMWOXu8I.png)  
+![vsix](https://github.com/JiuLing-zhang/WpfMudBlazorTemplate/raw/main/content/vsix.png)  
 
-![main](https://s2.loli.net/2024/01/25/uWapfh7zgoRXI1j.png)  
+![app](https://github.com/JiuLing-zhang/WpfMudBlazorTemplate/raw/main/content/app.png)  
 
 
 ## 项目说明
