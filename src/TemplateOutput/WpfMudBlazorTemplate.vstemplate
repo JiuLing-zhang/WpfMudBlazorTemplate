@@ -10,6 +10,7 @@
 		<PlatformTag>桌面</PlatformTag>
 		<PlatformTag>混合开发</PlatformTag>
 		<DefaultName>WpfMudBlazor</DefaultName>
+		<Icon>icon.ico</Icon>
 	</TemplateData>
 	<TemplateContent>
 		<ProjectCollection>
