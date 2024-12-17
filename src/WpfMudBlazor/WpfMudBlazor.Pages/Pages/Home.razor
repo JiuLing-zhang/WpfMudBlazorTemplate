@@ -10,7 +10,8 @@
 
 <MudAlert Severity="Severity.Warning">为了使页面更像桌面原生，模板默认在【app.css】中全局设置了【user-select: none】</MudAlert>
 
-<MudChip Icon="@Icons.Material.Filled.QuestionMark"
+<MudChip T="string"
+         Icon="@Icons.Material.Filled.QuestionMark"
          Class="mt-2"
          Label="true"
          Size="Size.Small"
@@ -20,12 +21,18 @@
 
 <MudAlert Severity="Severity.Normal" NoIcon="true" Dense="true" Class="mb-2 mt-1">
     从零搭建一个项目比较繁琐
-    <MudChip Label="true" Size="Size.Small" Color="Color.Info">
+    <MudChip T="string"
+             Label="true"
+             Size="Size.Small"
+             Color="Color.Info">
         <MudLink Href="https://learn.microsoft.com/zh-cn/aspnet/core/blazor/hybrid/tutorials/wpf?view=aspnetcore-8.0" Typo="Typo.body2" Color="Color.Inherit">
             <b>WPF Blazor 官方搭建教程</b>
         </MudLink>
     </MudChip>
-    <MudChip Label="true" Size="Size.Small" Color="Color.Info">
+    <MudChip T="string"
+             Label="true"
+             Size="Size.Small"
+             Color="Color.Info">
         <MudLink Href="https://mudblazor.com/getting-started/installation" Typo="Typo.body2" Color="Color.Inherit">
             <b>MudBlazor 官方安装示例</b>
         </MudLink>
@@ -35,7 +42,8 @@
     最近经常需要用这玩意开发点小东西
 </MudAlert>
 
-<MudChip Icon="@Icons.Material.Filled.QuestionMark"
+<MudChip T="string"
+         Icon="@Icons.Material.Filled.QuestionMark"
          Label="true"
          Size="Size.Small"
          Color="Color.Primary"
